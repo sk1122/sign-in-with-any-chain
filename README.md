@@ -2,7 +2,7 @@
 
 As we move towards a omnichain future, your dApps users can onboard from any blockchain possible
 
-That's why we build this
+That's why we are building this
 
 Now your user can sign in from any blockchain and prove their ownership to your servers
 
