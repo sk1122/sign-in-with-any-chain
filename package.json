@@ -1,0 +1,44 @@
+{
+  "name": "siwac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-mocha test/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sk1122/sign-in-with-any-chain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sk1122/sign-in-with-any-chain/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": ["./dist"],
+  "keywords": ["siwa"],
+  "author": "Satyam Kulkarni <punekar.satyam@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/expect": "^24.3.0",
+    "bs58": "^5.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "tweetnacl": "^1.0.3",
+    "viem": "^0.3.36"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.77.0",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.2.3",
+    "aptos": "^1.9.1",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
