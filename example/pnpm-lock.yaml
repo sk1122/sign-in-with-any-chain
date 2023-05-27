@@ -26,8 +26,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   siwac:
-    specifier: ^1.0.0
-    version: 1.0.0(typescript@5.0.4)
+    specifier: ^1.0.1
+    version: 1.0.1(typescript@5.0.4)
   tailwindcss:
     specifier: 3.3.2
     version: 3.3.2
@@ -3224,8 +3224,8 @@ packages:
       object-inspect: 1.12.3
     dev: false
 
-  /siwac@1.0.0(typescript@5.0.4):
-    resolution: {integrity: sha512-BcuHwAtHs8R9D/YmL+twZ6Bh4LH80TAF6uXvEaiUIHb6jdRbEuoJmc81o+WcFmpy9ZFRdIhfvGqw+34AxM4ozg==}
+  /siwac@1.0.1(typescript@5.0.4):
+    resolution: {integrity: sha512-HRHXelB43h/lZJCSUJ1gbjSeiib+RGA4SECRCrcBuw2kKnxHdWpJuRJm0iFcuSFyqOPat3i43ZZ5QumifqRjDA==}
     dependencies:
       '@types/expect': 24.3.0
       bs58: 5.0.0

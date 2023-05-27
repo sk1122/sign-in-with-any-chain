@@ -66,7 +66,10 @@ export default function Home() {
     } else if (account.type === "APTOS") {
       const anyWindow = window as any
 
-      const signature = await anyWindow.martian.signMessage(message)
+      const signature = await anyWindow.martian.signMessage({
+        message,
+        nonce: 1
+      })
 
       console.log(signature)
       const res = await fetch(`/api/generate`, {
